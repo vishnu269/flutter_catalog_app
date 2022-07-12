@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -10,7 +11,10 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to Flutter"),
+          child: Text(
+            "Welcome to Flutter",
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
         ),
       ),
       drawer: Drawer(),
