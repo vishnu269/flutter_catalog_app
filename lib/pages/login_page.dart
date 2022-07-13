@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
                     print("hi everybody");
                   }),
                   child: Text("Login"),
-                  style: TextButton.styleFrom(),
+                  style: TextButton.styleFrom(minimumSize: Size(150, 40)),
                 ),
               ],
             ),
