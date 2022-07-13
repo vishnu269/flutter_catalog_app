@@ -1,4 +1,4 @@
 class MyRoutes {
   static String loginRoute = "/login";
-  static String homeRoute = "/home_page.dart";
+  static String homeRoute = "/home";
 }
