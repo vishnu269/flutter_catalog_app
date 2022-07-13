@@ -14,6 +14,13 @@ class LoginPage extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           SizedBox(height: 25.0),
+          Text(
+            "Welcome",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           TextFormField(
             decoration: InputDecoration(
               hintText: "Enter Username",
@@ -26,13 +33,6 @@ class LoginPage extends StatelessWidget {
               labelText: "Password",
             ),
           ),
-          Text(
-            "Welcome",
-            style: TextStyle(
-              fontSize: 22,
-              fontWeight: FontWeight.bold,
-            ),
-          )
         ],
       ),
     );
