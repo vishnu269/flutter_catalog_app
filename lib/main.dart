@@ -14,9 +14,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // home: HomePage(),
       themeMode: ThemeMode.light,
-      theme: ThemeData(primarySwatch: Colors.deepPurple, primaryTextTheme: GoogleFonts.latoTextTheme()),
+      theme: ThemeData(
+        primarySwatch: Colors.deepPurple,
+        fontFamily: GoogleFonts.lato().fontFamily,
+      ),
       darkTheme: ThemeData(
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
       ),
       initialRoute: "/",
       routes: {
