@@ -13,7 +13,19 @@ class LoginPage extends StatelessWidget {
             "assets/images/login_image.png",
             fit: BoxFit.cover,
           ),
-          SizedBox(height: 40.0),
+          SizedBox(height: 25.0),
+          TextFormField(
+            decoration: InputDecoration(
+              hintText: "Enter Username",
+              labelText: "Username",
+            ),
+          ),
+          TextFormField(
+            decoration: InputDecoration(
+              hintText: "Enter Password",
+              labelText: "Password",
+            ),
+          ),
           Text(
             "Welcome",
             style: TextStyle(
