@@ -13,6 +13,13 @@ class LoginPage extends StatelessWidget {
             "assets/images/login_image.png",
             fit: BoxFit.cover,
           ),
+          Text(
+            "Welcome",
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+            ),
+          )
         ],
       ),
     );
