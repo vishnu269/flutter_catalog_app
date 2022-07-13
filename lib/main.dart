@@ -14,7 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // home: HomePage(),
       themeMode: ThemeMode.light,
-      Theme: ThemeData(primarySwatch: Colors.deepPurple, fontFamily: GoogleFonts),
+      theme: ThemeData(primarySwatch: Colors.deepPurple, primaryTextTheme: GoogleFonts.latoTextTheme()),
+      darkTheme: ThemeData(
+        brightness: Brightness.light,
+      ),
       initialRoute: "/",
       routes: {
         "/": (context) => LoginPage(),
