@@ -1,5 +1,6 @@
 import "dart:ui";
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercatalog/utils/routes.dart';
 
@@ -53,13 +54,20 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   SizedBox(height: 20.0),
-                  ElevatedButton(
-                    child: Text("Login"),
-                    style: TextButton.styleFrom(minimumSize: Size(150, 40)),
-                    onPressed: () {
-                      Navigator.pushNamed(context, MyRoutes.homeRoute);
-                    },
-                  ),
+
+                  Container(
+                    width: 100,
+                    height: 50,
+                    color: Colors.deepPurple,
+                  )
+
+                  // ElevatedButton(
+                  //   child: Text("Login"),
+                  //   style: TextButton.styleFrom(minimumSize: Size(150, 40)),
+                  //   onPressed: () {
+                  //     Navigator.pushNamed(context, MyRoutes.homeRoute);
+                  //   },
+                  // ),
                 ],
               ),
             ),
