@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           children: [
             Image.asset(
-              "assets/images/login_image.png",
+              "assets/images/hey.png",
               fit: BoxFit.cover,
             ),
             SizedBox(height: 20.0),
@@ -53,6 +53,7 @@ class _LoginPageState extends State<LoginPage> {
                       labelText: "Password",
                     ),
                   ),
+
                   SizedBox(height: 20.0),
 
                   Material(
