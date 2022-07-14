@@ -16,7 +16,6 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.white,
       child: SingleChildScrollView(
         child: Column(
           children: [
@@ -57,6 +56,8 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(height: 20.0),
 
                   Material(
+                    color: Colors.deepPurple,
+                    borderRadius: BorderRadius.circular(changeButton ? 50 : 8),
                     child: InkWell(
                       onTap: () async {
                         setState(() {
@@ -85,7 +86,6 @@ class _LoginPageState extends State<LoginPage> {
                               ),
                         decoration: BoxDecoration(
                           color: Colors.deepPurple,
-                          borderRadius: BorderRadius.circular(8),
                         ),
                       ),
                     ),
